@@ -1,0 +1,250 @@
+
+
+RoomListing
+{
+    
+}
+
+
+
+
+
+-----done-------------
+
+RoomateForm
+{
+    Name:
+    Location:
+    Hometown;
+    RoomPrefrence:
+    LanguagePrefrence:
+    preferedGender:
+    Occupation:
+    MoveInDetails:
+    LocationPrefrence:
+    Intrests :[]
+    Description:
+    Image:
+}
+
+
+
+
+
+
+Blogs
+{
+  BlogTitle:
+  BlogCategory:
+  BlogImage:
+  BlogContent:
+  BlogDate:
+}
+
+
+
+WishList{
+    UserUid:
+    PropertyUid:
+}
+
+
+AboutFeedback
+{
+    Uid:
+    Feedback:
+}
+
+
+Category
+{
+    CategoryName:
+    CategoryImg:
+}
+
+User 
+{
+name :
+Email:
+Profile Pic:
+Uid:
+Phone No:
+Password:
+Pincode:
+Address:
+Purchase={
+
+    {
+        PurchaseDate:
+        PurchasePrice:
+        PurchasePlan:
+        IsCouponApplied:
+        FinalPrice:
+    }
+
+    {
+        PurchaseDate:
+        PurchasePrice:
+        PurchasePlan:
+        IsCouponApplied:
+    }
+}
+}
+
+
+Consultation
+{
+    Name:
+    Email:
+    Phone No:
+    Date:
+    Time:
+    UserUid: 
+    
+}
+
+
+
+property{
+    Parking:
+    Facing:
+    Bedrooms:
+    Bathrooms:
+    Furnished:
+    Listed By:
+    Build up Area:
+    Carpet Area:
+    Bachelors Allowes:
+    Total Floors:
+    Floor No:
+    Location:
+    DatePosted:
+    Price:
+    PropertyDescription:
+    propertyImages : []
+    CategoryType:
+    Amenities: []
+    ProperyUid:
+    FeatureListing=[
+        Uid: 
+    ]
+}
+
+Notificatins
+{
+  
+  UserUid:
+  NotificatinTitle:
+  NotificatinDes:
+  NotificatinUid:
+  Notificatinimage:
+  NotificatinDate:
+  NotificatinTime:
+
+}
+
+Bhojnalaya
+{
+    NameOfLister:
+    PostedDate:
+    ListerImage:
+    BhojnalyaImages=[]
+    City:
+    Area:
+    State:
+    BhojnalayaName:
+    MonthlyCharge:
+    Amenities: []
+    Parking:
+    SpecialThali:
+    ThaliPrice:
+    PriceOfThali:
+    Timings:
+    VegOrNonVeg:
+    ParcelOfFood:
+    Description:
+    Uid:
+}
+
+
+
+HostelDeatilsForm
+{
+    HostelName:
+    Category:
+    VisitorsAllowed:
+    Bathrooms:
+    DiningFacility:
+    Location:
+    Furnished:
+    Parking:
+    electricity:
+    Sharing:
+    Amenities:[]
+    Deposite:
+    MonthlyMaintaince:
+    TotalFloors:
+    Description:
+    HostelImages:[]
+    Uid:
+}
+
+
+
+
+
+
+RentAgreement
+{
+   OwnerName:
+   OwnerNumber:
+   OwnerAddress:
+   tenantName:
+   tenantAddress:
+   tenantPhoneNo:
+   PropertyState:
+   PropertyCity:
+   PropertyPincode:
+   ProperyLocalAddress:
+   MonthlyRent:
+   SecurityDeposite:
+   LockInPeriod:
+   NoticePeriod:
+   AggrementValidity:
+   AggrementStartDate:
+   CreatedBy:
+   EmailAddress:
+   ItemProvided : [
+    itemName:
+    itemQuantity:
+   ]
+   Uid:
+}
+
+
+
+officeListingForm
+{
+    OfficeName:
+    Officelocation:
+    OfficeTitle:
+    OfficeMonthlyMaintaince:
+    OfficeFloorNo:
+    OfficeTotalFloor:
+    OfficeBuildUpCarpet:
+    OfficeFacing:
+    OfficeFacing:
+    OfficeDeposite:
+    ParkingAvailable:
+    No of Cabins:
+    No of Bathrooms:
+    Furnished:
+    Listed by:
+    Amenities:[]
+    OfficeDescription:
+    OfficeImages:[]
+    OwnerUid:
+
+}
+
+
