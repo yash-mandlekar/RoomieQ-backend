@@ -30,7 +30,7 @@ const { app, server } = require("./lib/socket.js");
 dotenv.config();
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://new-web-frontend-2.vercel.app/"], // The frontend URL
+    origin: ["http://localhost:5173","https://new-web-frontend-2.vercel.app"], // The frontend URL
     credentials: true,
   })
 );
